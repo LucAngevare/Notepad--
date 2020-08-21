@@ -102,7 +102,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
           cout << "Help" << endl;
           break;
         case ID_CHANGE_LOG:
-          ShellExecute(NULL, "open", "https://forms.gle/zYpsfNdqJZW2pVzU6", NULL, NULL, SW_SHOWNORMAL);
+          ShellExecute(NULL, "open", "Not existent yet", NULL, NULL, SW_SHOWNORMAL);
           break;
         case ID_FEEDBACK:
           ShellExecute(NULL, "open", "https://forms.gle/zYpsfNdqJZW2pVzU6", NULL, NULL, SW_SHOWNORMAL);
@@ -128,7 +128,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     HWND hwnd;
     MSG Msg;
 
-    //Step 1: Registering the Window Class
     wc.cbSize = sizeof(WNDCLASSEX);
     wc.style = 0;
     wc.lpfnWndProc = WndProc;
@@ -148,7 +147,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
       return 0;
     }
 
-    // Step 2: Creating the Window
     hwnd = CreateWindowEx(WS_EX_CLIENTEDGE, g_szClassName, "Notepad--", WS_OVERLAPPEDWINDOW|ES_MULTILINE|ES_WANTRETURN , CW_USEDEFAULT, CW_USEDEFAULT, 1080, 720, NULL, NULL, hInstance, NULL);
 
       if(hwnd == NULL) {
