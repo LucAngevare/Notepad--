@@ -1,0 +1,38 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="163.51mm" height="148.17mm" viewBox="0 0 463.5 420">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdfae2;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #663b17;
+      }
+
+      .cls-3 {
+        fill: #616d38;
+        opacity: 0.5;
+      }
+
+      .cls-4 {
+        font-size: 81px;
+        fill: #fcf9e3;
+        font-family: ThirstyScriptRegular, Thirsty Script;
+      }
+    </style>
+  </defs>
+  <title>notepad--</title>
+  <path class="cls-1" d="M501,191V481a34,34,0,0,1-34,34H116a34,34,0,0,1-34-34V191" transform="translate(-79.5 -95.5)"/>
+  <path class="cls-2" d="M82,191V130a34,34,0,0,1,34-34H467a34,34,0,0,1,34,34v61" transform="translate(-79.5 -95.5)"/>
+  <line class="cls-1" x1="2.5" y1="95.5" x2="421.5" y2="95.5"/>
+  <line class="cls-3" x1="2.5" y1="156.5" x2="421.5" y2="156.5"/>
+  <line class="cls-3" x1="2.5" y1="217.5" x2="421.5" y2="217.5"/>
+  <line class="cls-3" x1="2.5" y1="278.5" x2="421.5" y2="278.5"/>
+  <line class="cls-3" y1="339.5" x2="419" y2="339.5"/>
+  <text class="cls-4" transform="translate(38.5 75.58)">Notepad--</text>
+</svg>
